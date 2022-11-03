@@ -31,6 +31,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     
     @media @breakpointMobile {
         max-width: 70%;
@@ -46,9 +47,9 @@ header {
 
     .profile-avatar {
         display: block;
-        margin: 0 auto 24px;
+        margin: 0 auto;
         border-radius: 50%;
-        max-width: 200px;
+        max-width: 96px;
     }
 }
 
@@ -57,17 +58,17 @@ header {
 
 
     &-name {
-        font-size: 24px;
-        .marginBottom8();
-    }
-
-    &-subtitle {
         font-size: 20px;
         .marginBottom8();
     }
 
-    &-description {
+    &-subtitle {
         font-size: 16px;
+        .marginBottom8();
+    }
+
+    &-description {
+        font-size: 14px;
         opacity: .7;
     }
 }
@@ -75,7 +76,7 @@ header {
 .social-links {
     display: flex;
     justify-content: space-between;
-    max-width: 300px;
+    max-width: 248px;
     width: 100%;
     margin: 0 auto;
 

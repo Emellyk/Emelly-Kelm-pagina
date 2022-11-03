@@ -40,27 +40,27 @@ header .profile-avatar {
   display: block;
   margin: 0 auto 24px;
   border-radius: 50%;
-  max-width: 200px;
+  max-width: 96px;
 }
 .profile-bio {
   text-align: center;
 }
 .profile-bio-name {
-  font-size: 24px;
-  margin-bottom: 8px;
-}
-.profile-bio-subtitle {
   font-size: 20px;
   margin-bottom: 8px;
 }
-.profile-bio-description {
+.profile-bio-subtitle {
   font-size: 16px;
+  margin-bottom: 8px;
+}
+.profile-bio-description {
+  font-size: 14px;
   opacity: 0.7;
 }
 .social-links {
   display: flex;
   justify-content: space-between;
-  max-width: 300px;
+  max-width: 248px;
   width: 100%;
   margin: 0 auto;
 }
